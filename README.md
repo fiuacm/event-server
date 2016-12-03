@@ -20,7 +20,7 @@ to show the capabilities of the Flask
 Whenever this route is hit it will return JSON containing three events
 in the following schema
 
-,,,
+'''
 {
   "event": id
 	{
@@ -33,7 +33,7 @@ in the following schema
 	  "rsvp": func()
 	}
 }
-,,,
+'''
 
 
 ## POST /events
