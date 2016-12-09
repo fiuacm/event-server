@@ -9,6 +9,6 @@ def welcome():
 def getevents():
     return "no logic"
 
-@app:route('/events' , methods = ['POST'])
+@app.route('/events', methods = ['POST'])
 def postevents():
     return "no logic"
